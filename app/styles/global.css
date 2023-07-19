@@ -411,7 +411,7 @@
   }
   
   .hero-title .span {
-    color: var(--dark-orange);
+    color: var(--white);
     font-size: var(--fs-2);
     font-weight: var(--fw-700);
   }
@@ -430,11 +430,12 @@
   }
   
   .btn-outline:is(:hover, :focus) {
-    background-color: var(--dark-orange);
-    border-color: var(--dark-orange);
+    background-color: var(--alice-blue);
+    border-color: var(--alice-blue);
   }
   
   .hero-shape {
+    align-items: baseline;
     position: absolute;
     z-index: -1;
     animation: move 2s ease-in-out infinite alternate;
@@ -493,7 +494,7 @@
   
   .about-icon {
     min-width: max-content;
-    color: var(--dark-orange);
+    color: var(--black);
     margin-block-start: 8px;
   }
   
@@ -522,7 +523,7 @@
     transition: var(--transition);
   }
   
-  .service-card:is(:hover, :focus-within) { border-color: var(--dark-orange); }
+  .service-card:is(:hover, :focus-within) { border-color: var(--prussian-blue); }
   
   .service-card .card-icon { margin-block-end: 30px; }
   

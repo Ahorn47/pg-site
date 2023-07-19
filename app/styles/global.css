@@ -435,7 +435,6 @@
   }
   
   .hero-shape {
-    align-items: baseline;
     position: absolute;
     z-index: -1;
     animation: move 2s ease-in-out infinite alternate;
